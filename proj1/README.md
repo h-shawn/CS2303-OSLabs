@@ -58,7 +58,7 @@ proj1
 
 - Source file name: Copy.c
 - Executable file name: Copy
-- Command line: ./Copy <InputFile> <OutputFile> <BufferSize>
+- Command line: ./Copy [InputFile] [OutputFile] [BufferSize]
 - Test data: ./data
 - Diagram of performance: ./pic
 
@@ -76,13 +76,13 @@ Diagram of the execution time over different buffer size:
 
 #### Shell
 
-- Command line for telnet: telnet <IPAddress> <Port>
+- Command line for telnet: telnet [IPAddress] [Port]
 
 - Source file name: shell.c
 
 - Executable file name: shell
 
-- Command line: ./shell <Port>
+- Command line: ./shell [Port]
 
 Usage:
 
@@ -103,9 +103,9 @@ telnet <IPAddress> <Port>
 
 - Command line: 
 
-  ./single or ./single <InputFile> <OutputFile> 
+  ./single or ./single [InputFile] [OutputFile] 
 
-  ./multi or ./multi <InputFile> <OutputFile> or ./multi <Size>
+  ./multi or ./multi [InputFile] [OutputFile]  or ./multi [Size]
 
 Usage:
 
