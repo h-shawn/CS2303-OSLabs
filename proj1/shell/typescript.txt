@@ -1,0 +1,74 @@
+➜  ./shell 2023
+Server started on port 2023
+Client connected: 127.0.0.1:60730
+Client connected: 127.0.0.1:60732
+received command: ls from 127.0.0.1:60730
+received command: pwd from 127.0.0.1:60730
+received command: ls from 127.0.0.1:60732
+received command: pwd from 127.0.0.1:60732
+received command: ls -l from 127.0.0.1:60730
+received command: ls -l | wc from 127.0.0.1:60730
+received command: ls from 127.0.0.1:60730
+received command: exit from 127.0.0.1:60730
+Client disconnected: 127.0.0.1:60730
+received command: ls -l from 127.0.0.1:60732
+received command: ls -l | wc from 127.0.0.1:60732
+received command: ls -l | wc | wc from 127.0.0.1:60732
+received command: exit from 127.0.0.1:60732
+Client disconnected: 127.0.0.1:60732
+
+➜  telnet localhost 2023
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+shell> ls
+header.h
+Makefile
+shell
+shell.c
+shell.o
+shell> pwd
+/home/shawn/OS-Proj/proj1/shell
+shell> ls -l
+总用量 44
+-rw-r--r-- 1 shawn shawn   431  3月  7 15:44 header.h
+-rw-r--r-- 1 shawn shawn   118  3月 27 15:55 Makefile
+-rwxr-xr-x 1 shawn shawn 17512  3月 28 15:52 shell
+-rw-r--r-- 1 shawn shawn  5660  3月 27 12:13 shell.c
+-rw-r--r-- 1 shawn shawn  8136  3月 28 15:52 shell.o
+shell> ls -l | wc
+      6      47     283
+shell> ls
+header.h
+Makefile
+shell
+shell.c
+shell.o
+shell> exit
+Connection closed by foreign host.
+
+➜  telnet localhost 2023
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+shell> ls
+header.h
+Makefile
+shell
+shell.c
+shell.o
+shell> pwd
+/home/shawn/OS-Proj/proj1/shell
+shell> ls -l
+总用量 44
+-rw-r--r-- 1 shawn shawn   431  3月  7 15:44 header.h
+-rw-r--r-- 1 shawn shawn   118  3月 27 15:55 Makefile
+-rwxr-xr-x 1 shawn shawn 17512  3月 28 15:52 shell
+-rw-r--r-- 1 shawn shawn  5660  3月 27 12:13 shell.c
+-rw-r--r-- 1 shawn shawn  8136  3月 28 15:52 shell.o
+shell> ls -l | wc
+      6      47     283
+shell> ls -l | wc | wc
+      1       3      24
+shell> exit
+Connection closed by foreign host.

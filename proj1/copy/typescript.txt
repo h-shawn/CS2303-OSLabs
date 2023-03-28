@@ -1,0 +1,18 @@
+➜  ./Copy ./data/1.txt output.txt 10
+Read file end.
+Write file end.
+Time used: 2.293000 millisecond
+
+➜  ./Copy ./data/11.txt output.txt 10
+There is not such a file named ./data/11.txt.
+
+➜  ./Copy ./data/1.txt output.txt 10
+Over write ? Y/N
+Y
+Read file end.
+Write file end.
+Time used: 2.159000 millisecond
+
+➜  ./Copy ./data/1.txt output.txt 100
+Over write ? Y/N
+N

@@ -1,0 +1,32 @@
+➜  ./single ./data/64.in data.out
+Time used: 0.000877 seconds
+
+➜ ./single ./data/256.in data.out
+Time used: 0.066422 seconds
+
+➜  ./single ./data/1024.in data.out
+Time used: 5.980396 seconds
+
+➜  ./multi ./data/64.in data.out
+Number of threads: 2
+Time used: 0.000868 seconds
+
+➜  ./multi ./data/256.in data.out
+Number of threads: 2
+Time used: 0.056790 seconds
+
+➜  ./multi ./data/1024.in data.out
+Number of threads: 2
+Time used: 4.532392 seconds
+
+➜  ./multi 64
+Number of threads: 2
+Time used: 0.000908 seconds
+
+➜  ./multi 256
+Number of threads: 2
+Time used: 0.047731 seconds
+
+➜  ./multi 1024
+Number of threads: 2
+Time used: 4.367363 seconds
