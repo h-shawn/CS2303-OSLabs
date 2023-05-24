@@ -1,0 +1,19 @@
+➜ ./disk 3 4 1000 disk_storage_file
+I
+R 2 3
+W 2 3 it is a test file!
+R 2 3
+W 5 6
+Instruction Error!
+R 5 6
+E
+
+
+➜ ./cat disk.log
+3 4
+Yes
+Yes
+Yes it is a test file!
+No
+No
+Goodbye!

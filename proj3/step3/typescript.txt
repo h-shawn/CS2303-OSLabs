@@ -1,0 +1,74 @@
+➜ ./disk 3 4 1000 disk_storage_file 1111
+Listening...
+Receive from fs: i
+Receive from fs: W 2 1 it is a test file
+Receive from fs: R 2 1
+Receive from fs: R 2 1
+Receive from fs: W 2 1 it is just a test file
+Receive from fs: R 2 1
+Receive from fs: R 2 1
+Receive from fs: W 2 1 it is a test file
+Receive from fs: R 2 1
+Closing Client
+Listening...
+
+
+➜ ./fs 1111 2222
+Successfully Connected to Disk...
+Receive from disk: 3 4
+Listening...
+Receive from client: mkdir t1
+Receive from client: mkdir t2
+Receive from client: ls
+Receive from client: cd t1
+Receive from client: mk test1
+Receive from client: mk test2
+Receive from client: w test1 20 it is a test file
+Receive from client: cat test1
+Receive from client: i test1 6 5 just
+Receive from client: cat test1
+Receive from client: d test1 6 5
+Receive from client: cat test1
+Receive from client: rm test2
+Receive from client: cd ..
+Receive from client: rmdir t2
+Receive from client: ls
+Receive from client: e
+
+
+➜ ./client 2222
+Enter your Command: mkdir t1
+Receive from fs: Yes
+Enter your Command: mkdir t2
+Receive from fs: Yes
+Enter your Command: ls
+Receive from fs: & t1 t2
+Enter your Command: cd t1
+Receive from fs: Yes
+Enter your Command: mk test1
+Receive from fs: Yes
+Enter your Command: mk test2
+Receive from fs: Yes
+Enter your Command: w test1 20 it is a test file
+Receive from fs: Yes
+Enter your Command: cat test1
+Receive from fs: it is a test file
+Enter your Command: i test1 6 5 just
+Receive from fs: Yes
+Enter your Command: cat test1
+Receive from fs: it is just a test file
+Enter your Command: d test1 6 5
+Receive from fs: Yes
+Enter your Command: cat test1
+Receive from fs: it is a test file
+Enter your Command: rm test2
+Receive from fs: Yes
+Enter your Command: cd ..
+Receive from fs: Yes
+Enter your Command: rmdir t2
+Receive from fs: Yes
+Enter your Command: ls
+Receive from fs: & t1
+Enter your Command: e
+Receive from fs: Goodbye!
+Enter your Command: Exiting Client

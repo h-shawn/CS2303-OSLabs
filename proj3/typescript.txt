@@ -1,0 +1,78 @@
+➜ ./LCM 5
+Larry digs hole 1
+Larry digs hole 2
+Moe plants seed in hole 1
+Larry digs hole 3
+Larry digs hole 4
+Moe plants seed in hole 2
+Moe plants seed in hole 3
+Larry digs hole 5
+Moe plants seed in hole 4
+Curly fills hole 1
+Curly fills hole 2
+Moe plants seed in hole 5
+Curly fills hole 3
+Curly fills hole 4
+Curly fills hole 5
+
+➜ ./faneuil
+Immigrant 1 enters.
+Immigrant 1 checks in.
+Immigrant 1 sits down.
+Judge 1 enters.
+Judge 1 confirms the immigrant 1.
+Judge 1 leaves.
+Immigrant 1 swears.
+Spectator 1 enters.
+Spectator 1 spectates.
+Immigrant 1 gets certificate.
+Immigrant 1 leaves.
+Immigrant 2 enters.
+Immigrant 2 checks in.
+Immigrant 2 sits down.
+Spectator 1 leaves.
+Judge 2 enters.
+Judge 2 confirms the immigrant 2.
+Judge 2 leaves.
+Immigrant 2 swears.
+Immigrant 2 gets certificate.
+Spectator 2 enters.
+Spectator 2 spectates.
+Immigrant 2 leaves.
+Spectator 2 leaves.
+Immigrant 3 enters.
+Immigrant 3 checks in.
+Immigrant 3 sits down.
+Judge 3 enters.
+Judge 3 confirms the immigrant 3.
+Judge 3 leaves.
+Immigrant 3 swears.
+Immigrant 3 gets certificate.
+Immigrant 3 leaves.
+Spectator 3 enters.
+Spectator 3 spectates.
+Immigrant 4 enters.
+Immigrant 4 checks in.
+Spectator 3 leaves.
+Immigrant 4 sits down.
+Judge 4 enters.
+Judge 4 confirms the immigrant 4.
+Judge 4 leaves.
+Immigrant 4 swears.
+Immigrant 4 gets certificate.
+Immigrant 4 leaves.
+Spectator 4 enters.
+Spectator 4 spectates.
+Spectator 4 leaves.
+Immigrant 5 enters.
+Immigrant 5 checks in.
+Immigrant 5 sits down.
+Judge 5 enters.
+Judge 5 confirms the immigrant 5.
+Judge 5 leaves.
+Immigrant 5 swears.
+Immigrant 5 gets certificate.
+Immigrant 5 leaves.
+Spectator 5 enters.
+Spectator 5 spectates.
+Spectator 5 leaves.

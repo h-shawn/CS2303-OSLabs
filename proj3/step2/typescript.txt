@@ -1,0 +1,38 @@
+➜ ./fs
+f
+mkdir testDir1
+mkdir testDir2
+cd testDir1
+mk testf1
+mk testf2
+ls
+w testf1 20 it is a test file!
+cat testf1
+i testf1 15 20 insert something
+cat testf1
+rm testf1
+ls
+cd ..
+rmdir testDir2
+ls
+e
+
+
+➜ ./cat fs.log
+Done
+Yes
+Yes
+Yes
+Yes
+Yes
+testf1 testf2 &
+Yes
+it is a test file!
+Yes
+it is a test fiinsert somethingle!
+Yes
+testf2 &
+Yes
+Yes
+& testDir1
+Goodbye!
